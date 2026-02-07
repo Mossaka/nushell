@@ -1,2 +1,4 @@
 # Example of a `.gitattributes` file which reclassifies `.nu` files as Nushell:
 *.nu linguist-language=Nushell
+
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
